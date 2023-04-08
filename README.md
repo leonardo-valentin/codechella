@@ -1,2 +1,2 @@
-# codechella
+# CodeChella
 Desenvolvido o desafio alurachallenge
