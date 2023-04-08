@@ -1,0 +1,46 @@
+.titulo-home {
+    margin: 0 2rem;
+}
+
+.texto-home {
+    margin: 0 2.8rem;
+}
+
+.titulo-experiencia, .texto-experiencia {
+    margin: 0 3rem;
+}
+
+@media screen and (min-width: 768px) {
+    .titulo-home {
+        margin: 0 11.75rem;
+    }
+
+    .texto-home {
+        margin: 0 3.75rem;
+    }
+
+    .titulo-experiencia, .texto-experiencia {
+        width: 74%;
+        margin: 0 ;
+    } 
+
+    .texto-teste {
+        width: 58.5%;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+
+    .titulo-home, .texto-home {
+        margin: 0;
+    }
+
+    .titulo-experiencia, .texto-experiencia {
+        width: 100%;
+    } 
+    
+    .texto-teste {
+        width: 100%;
+    }
+
+}

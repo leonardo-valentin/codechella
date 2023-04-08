@@ -1,0 +1,112 @@
+.formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 2rem 0;
+}
+
+.formulario__titulo {
+    color: #444444;
+    font-family: var(--fonte-secundaria);
+    font-weight: 400;
+    font-size: 2rem;
+    text-align: center;
+    margin: 0 1.25rem;
+}
+
+.formulario__container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 85%;
+}
+
+.espaco__form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.divisao__form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.tamanho-texto {
+    color: #444444;
+    font-family: var(--fonte-principal);
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.nomeinput, .emailinput, .tipoingressoinput, .dateinput {
+    font-size: 1.25rem;
+    padding: 0.75rem;
+}
+
+.avancar {
+    display: flex;
+    flex-direction: row;
+    box-shadow: 4px 4px 0px #000000;
+    border-radius: 1rem;
+    background-color: var(--primario-roxo);
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    width: 164px;
+    height: 56px;
+    margin: 0 auto;
+}
+
+.container__botao:hover {
+    background-color: var(--botaohover);
+}
+
+.avancartexto{
+    font-family: var(--fonte-principal);
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: var(--branco);
+}
+
+@media screen and (min-width: 768px) {
+    .tamanho-texto, .formulario__titulo {
+        color: var(--branco);
+    }
+
+    .formulario__titulo {
+        font-size: 3rem;
+        width: 70%;
+    }
+
+    .dateinput {
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .formulario__container {
+        width: 55%;
+    }
+
+    .divisao__form{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .divisao__form .espaco__form {
+        width: 45%;
+    }
+
+    .dateinput {
+        width: auto;
+    }
+    .tipoingressoinput {
+        width: auto;
+    }
+}

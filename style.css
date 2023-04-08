@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Raleway:wght@500;700;800&display=swap');
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/footer.css");
+@import url("styles/home.css");
+@import url("styles/experiencia.css");
+@import url("styles/mapadesetores.css");
+@import url("styles/informacoes.css");
+@import url("styles/formulario.css");
+@import url("styles/ingressocomprado.css");
+@import url("styles/tamanhos.css");
+
+:root {
+    --fonte-principal: 'Raleway', sans-serif;
+    --fonte-secundaria: 'Calistoga', cursive;
+    --roxo-boreal: linear-gradient(180deg, #304968 0%, #36C1A0 52.6%, #4650BD 100%);
+    --secundaria-verde: #304968;
+    --terciaria-coral: #36C1A0;
+    --terciaria-lilas: #B6BCFF;
+    --primario-roxo: #4650BD;
+    --primario-verde: #008364;
+    --branco: #FFFFFF;
+    --botaohover: #606ADA;
+}
+
+body {
+    background: var(--roxo-boreal);
+    font-family: var(--fonte-principal);
+}

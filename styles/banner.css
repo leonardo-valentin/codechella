@@ -1,0 +1,156 @@
+.banner {
+    text-align: center;
+}
+
+.home {
+    background: url("../assets/mobile/bannerhomepage.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.experiencia {
+    background: url("../assets/mobile/banner_experiencia.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.mapadesetores {
+    background: url("../assets/mobile/banner__mapasetores.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.informacoes {
+    background: url("../assets/mobile/banner__informacoes.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.ingresso {
+    background: url("../assets/mobile/banner__garantaingresso.png") no-repeat;
+    background-size: cover;
+    background-position: center;  
+}
+
+.ingressocomprado {
+    background: url("../assets/mobile/banner__ingressocomprado.png") no-repeat;
+    background-size: cover;
+    background-position: center;  
+}
+
+.textos {
+    padding: 6rem 0;
+}
+
+.banner__texto {
+    color: var(--branco);
+    margin-bottom: 1.5vh;
+    font-family: var(--fonte-secundaria);
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+
+@media screen and (min-width: 768px) {
+    .banner {
+        padding: 0;
+        text-align: center;
+    }
+
+    .home {
+        background: url("../assets/tablet/banner1.png") no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .experiencia {
+        background: url("../assets/tablet/banner__experiencia.png") no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .mapadesetores {
+        background: url("../assets/tablet/banner__mapasetores.png") no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .informacoes {
+        background: url("../assets/tablet/banner__informacoes.png") no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .ingresso {
+        background: url("../assets/tablet/banner__garantaingresso.png") no-repeat;
+        background-size: cover;
+        background-position: center;  
+    }
+
+    .ingressocomprado {
+        background: url("../assets/tablet/banner__ingressocomprado.png") no-repeat;
+        background-size: cover;
+        background-position: center;  
+    }
+
+    .banner__texto {
+        color: var(--branco);
+        font-family: var(--fonte-secundaria);
+        font-weight: 400;
+        font-size: 4rem;
+        margin-bottom: 1rem;
+    }
+
+    .textos {
+        display: block;
+        padding: 7rem 0;
+    }
+
+}
+
+@media screen and (min-width: 1440px) {
+    .banner {
+        padding: 0;
+        text-align: center;
+    }
+
+    .experiencia {
+        background: url("../assets/desktop/banner__experiencia.png") no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .mapadesetores {
+        background: url("../assets/desktop/banner__mapasetores.png") no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .home {
+        background: url("../assets/desktop/banner1.png") no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .informacoes {
+        background: url("../assets/desktop/banner__informacoes.png") no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .ingresso {
+        background: url("../assets/desktop/banner__ingresso.png") no-repeat;
+        background-size: cover;
+        background-position: center;  
+    }
+
+    .ingressocomprado {
+        background: url("../assets/desktop/banner__ingressocomprado.png") no-repeat;
+        background-size: cover;
+        background-position: center;  
+    }
+
+    .textos {
+        padding: 7.5rem;
+    }
+}

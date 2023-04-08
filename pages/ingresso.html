@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Garanta seu ingresso!</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../reset.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <a href="../index.html"><img class="cabecalho__logo" src="../assets/mobile/logobranco.svg" alt="logo codechella"></a>
+        <div class="menu">
+            <input type="checkbox" id="botao-cabecalho" class="botao__cabecalho">
+            <label for="botao-cabecalho">
+                <span class="menu__hamburguer"></span>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__item">
+                    <a class="lista-menu__link" href="experiencia.html">A experiência</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a class="lista-menu__link" href="mapasetores.html">Mapa de Setores</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a class="lista-menu__link" href="informacoes.html">Informações</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a class="lista-menu__link" href="ingresso.html">Ingresso</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <section class="banner ingresso">
+            <div class="textos">
+                <h2 class="banner__texto">Garanta seu Ingresso</h2>
+            </div>
+        </section>
+
+        <section class="formulario">
+                <h2 class="formulario__titulo">Preencha o formulario a seguir:</h2>
+                <div class="formulario__container">
+                    <div class="espaco__form">
+                        <h2 class="tamanho-texto">Nome Completo:</h2>
+                        <input type="text" class="nomeinput">
+                    </div>
+                    <div class="espaco__form">
+                        <h2 class="tamanho-texto">Email:</h2>
+                        <input type="text" class="emailinput">
+                    </div>
+
+                    <div class="divisao__form">
+                        <div class="espaco__form">
+                            <h2 class="tamanho-texto">Tipo de ingresso</h2>
+                            <input list="tipoingressos" class="tipoingressoinput">
+                        </div>
+                        <div class="espaco__form">
+                            <h2 class="tamanho-texto">Data de Nascimento:</h2>
+                            <input type="text" class="dateinput">
+                        </div>
+                    </div>
+                        <a href="ingressocomprado.html" class="avancar">
+                            <h2 class="avancartexto">Avançar!</h2>
+                            <img src="../assets/mobile/setinha.png" alt="setinha para o lado">
+                        </a>
+                </div>
+        </section>
+
+    </main>
+    <footer class="rodape">
+        <div class="rodape__redes-sociais">
+            <img class="logo-desktop" src="../assets/desktop/logobranco.svg" alt="logo codechella">
+            <img class="logo" src="../assets/mobile/logobranco.svg" alt="logo codechella">
+            <div class="logos-sociais">
+                <h3 class="texto__redes-sociais">Acesse nossas redes:</h3>
+                <div class="redes-sociais">
+                    <img class="rodape__logo" src="../assets/mobile/wpp.png" alt="logo whatsapp">
+                    <img class="rodape__logo" src="../assets/mobile/twitch.png" alt="logo twitch">
+                    <img class="rodape__logo" src="../assets/mobile/instagram.svg" alt="logo instagram">
+                    <img class="rodape__logo" src="../assets/mobile/twitter.svg" alt="logo twitter">
+                </div>
+            </div>
+        </div>
+
+        <h3 class="rodape__copyright"><span class="textbreak">Desenvolvido por Alura.</span><span class="textbreak2">
+                Projeto fictício sem fins comerciais.</span></h3>
+    </footer>
+</body>
+</html>
